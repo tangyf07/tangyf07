@@ -16,12 +16,9 @@ Focus: **RetailDW → GameStream → SQLGuard**
 | [GameStream](https://github.com/tangyf07/GameStream) | Real-time game-behavior metrics: Kafka → Flink → Doris (Spark / lite also in-repo); Golden Path end-to-end | `docker compose up -d && bash scripts/demo_golden_path.sh` |
 | [SQLGuard](https://github.com/tangyf07/SQLGuard) | Deterministic SQL write/execution gate (AST policy): `make seal` prints ALLOW/BLOCK + `rule_id` + evidence | `make seal` |
 
-## Other public repos
+## Other work
 
-- [DataPilot](https://github.com/tangyf07/DataPilot) — optional NL→SQL layer over GameStream ADS
-- [DocPilot](https://github.com/tangyf07/DocPilot) — document QA with ACL-aware retrieval
-- [AgentOpsLite](https://github.com/tangyf07/AgentOpsLite) — local AI coding-agent run reviewer
-- [RucBaseLab](https://github.com/tangyf07/RucBaseLab) — HIT RUCBase database-kernel labs (coursework)
+Other work: [DataPilot](https://github.com/tangyf07/DataPilot) · [DocPilot](https://github.com/tangyf07/DocPilot) · [AgentOpsLite](https://github.com/tangyf07/AgentOpsLite) · [RucBaseLab](https://github.com/tangyf07/RucBaseLab)
 
 ## Correctness & observability
 
