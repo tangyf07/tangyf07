@@ -13,7 +13,7 @@ Focus: **RetailDW → GameStream → SQLGuard**
 | Repo | What it is | Run |
 | --- | --- | --- |
 | [RetailDW](https://github.com/tangyf07/RetailDW) | Offline retail warehouse on PySpark (ODS→DWD→DWS→ADS): quality gates, refund semantics, `dt`-partition idempotent reruns, cross-layer GMV reconcile | `bash scripts/run_local.sh` |
-| [GameStream](https://github.com/tangyf07/GameStream) | Real-time game-behavior metrics: Kafka → Flink → Doris (Spark / lite also in-repo); Golden Path end-to-end | `docker compose up -d && bash scripts/demo_golden_path.sh` |
+| [GameStream](https://github.com/tangyf07/GameStream) | Realtime game analytics: Kafka → Flink → Doris; event-time, dedup, checkpoint recovery; Golden Path | `docker compose up -d && bash scripts/demo_golden_path.sh` |
 | [SQLGuard](https://github.com/tangyf07/SQLGuard) | Deterministic SQL write/execution gate (AST policy): `make seal` prints ALLOW/BLOCK + `rule_id` + evidence | `make seal` |
 
 ## Other work
